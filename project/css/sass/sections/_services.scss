@@ -1,0 +1,56 @@
+.services {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    .h-services {
+        > div {
+            .title-serv {
+                @extend %header-sections;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 18px;
+                color: $flatA5;
+                margin-top: 0;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .services-cont {
+        margin-bottom: 20px;
+        > div {
+            padding: 25px 20px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            transition: $transitionDuration;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 0px 2px 6px -5px rgba($flatblack, .8);
+            }
+            .title-services {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                i {
+                    font-size: 30px;
+                    margin-left: 20px;
+                    color: $bgNavbar;
+                }
+                span {
+                    color: $flatblack1;
+                    font-weight: bold;
+                    font-size: 18px;
+                    letter-spacing: -1px;
+                }
+            }
+            .desc-services {
+                color: $flatA5;
+                font-size: 15px;
+                margin: 0;
+            }
+        }
+        &:first-of-type {
+            > div {
+                box-shadow: 0px 2px 6px -5px rgba($flatblack, .8);
+            }
+        }
+    }
+}

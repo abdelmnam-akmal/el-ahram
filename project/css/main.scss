@@ -1,0 +1,31 @@
+// helpers
+@import "sass/helpers/var"; // Variables
+@import "sass/helpers/extend"; // Extends
+
+// Components
+@import "sass/components/btns"; // btns
+@import "sass/components/whatsApp"; // btns
+
+// global
+@import "sass/global/global";
+
+// layout
+@import "sass/layout/header"; // Header of page
+@import "sass/layout/nav"; // Navbar of page
+
+// Sections Of Page
+@import "sass/sections/main"; // Main of Page
+@import "sass/sections/about-us"; // About of Page
+@import "sass/sections/services"; // Services of Page
+@import "sass/sections/portfolio"; // Portfolio of Page
+@import "sass/sections/map"; // Map of Page
+@import "sass/sections/contact"; // Contact of Page
+@import "sass/sections/info"; // Info of Page
+
+// layout
+@import "sass/layout/footer"; // Footer of page
+
+// pages
+@import "sass/Pages/about"; // about page
+@import "sass/Pages/portfolio-page"; // page Portfolio-page
+@import "sass/Pages/contact-page"; // page contact-page

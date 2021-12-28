@@ -1,0 +1,58 @@
+.info-footer {
+    background: url('../images/bg-portfolio.png') no-repeat center center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .info-container {
+        @media #{$maxMobile} {
+            margin-bottom: 20px;
+        }
+        > div {
+            .info-title {
+                font-size: 22px;
+                color: $flatFFF;
+                font-weight: bold;
+                margin-bottom: 20px;
+                display: block;
+            }
+            .info-content {
+                color: $flat75;
+                margin: 0;
+                padding: 0;
+                li {
+                    position: relative;
+                    padding-right: 25px;
+                    cursor: pointer;
+                    transition: $transitionDuration;
+                    margin-bottom: 6px;
+                    a {
+                        color: $flat75;
+                        transition: $transitionDuration;
+                        &:hover {
+                            color: $flatFFF;
+                        }
+                    }
+                    &:hover {
+                        color: $flatFFF;
+                    }
+                    &:after {
+                        content: '\f30a';
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                }
+            }
+            .btn {
+                margin-top: 20px;
+            }
+        }
+        &:first-of-type {
+            > div {
+                padding-left: 25px;
+            }
+        }
+    }
+}

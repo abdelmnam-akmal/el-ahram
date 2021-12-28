@@ -1,0 +1,15 @@
+.contact {
+    background: url('../images/bg-contact-us.jpg') no-repeat center center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-size: cover;
+    .contact-container {
+        > div {
+            .desc-contact {
+                color: $flatFFF;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}

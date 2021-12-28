@@ -1,0 +1,17 @@
+%header-sections {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: $flatblack1;
+    font-weight: bold;
+    > span {
+        color: $header-color;
+    }
+}
+%center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%hidden {
+    overflow: hidden;
+}

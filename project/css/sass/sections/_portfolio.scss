@@ -1,0 +1,34 @@
+.portfolio {
+    background: url('../images/bg-portfolio.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .h-portfolio {
+        .title-portfolio {
+            @extend %header-sections;
+            color: $flatFFF;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 18px;
+            color: $flatA5;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+    }
+    .portfolio-container {
+        margin-bottom:  calc(var(--bs-gutter-x)/ 1);
+        > div {
+            overflow: hidden;
+            img {
+                height: 300px;
+                width: 100%;
+                transition: $transitionDuration;
+                cursor: pointer;
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}

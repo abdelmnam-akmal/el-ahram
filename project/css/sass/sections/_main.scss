@@ -1,0 +1,30 @@
+.main-slider {
+    .carousel-special {
+        padding: 0;
+        .carousel-caption {
+            bottom: 50%;
+            transform: translateY(50%);
+            @media #{$maxMobile} {
+                position: relative;
+                background-color: $bgHeader;
+                color: $flatFFF;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: 0;
+                transform: translateY(0);
+                padding-right: calc(var(--bs-gutter-x)/ 2);
+                padding-left: calc(var(--bs-gutter-x)/ 2);
+            }
+            h5 {
+                margin-bottom: 15px;
+                color: $headerColor;
+                font-weight: bold;
+            }
+            p {
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}

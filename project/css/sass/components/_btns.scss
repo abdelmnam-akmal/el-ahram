@@ -1,0 +1,16 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid $flatFFF;
+    padding: 15px 30px;
+    color: $flatFFF;
+    font-weight: bold;
+    margin-top: 15px;
+    &:focus {
+        box-shadow: none;
+    }
+    &:hover {
+        background-color: $hoverBtn;
+        border: 1px solid $hoverBtn;
+        color: $flatFFF;
+    }
+}
